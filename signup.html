@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_Up Box-Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: purple;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .form-container{
+            border: 2px solid #ddd;
+            height: 40%;
+            width: 40%;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 30%;
+            background-color: white;
+        }
+        h2{
+            font-size: 25px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        input{
+            padding: 10px;
+            width: 75%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: transparent;
+        }
+        label{
+            font-size: 20px;
+            color: darkblue;
+        }
+        button{
+            padding: 5px;
+            width: 50%;
+            background-color: darkblue;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    
+   <form class="form-container">
+    <h2>Sign Up Page</h2><br><br>
+    <label>Full Name:</label>
+    <input type="text" placeholder="Enter Your Name"/><br><br>
+    <label>Email:</label>
+    <input type="email" placeholder="Enter Your Email"/><br><br>
+    <label>Password:</label>
+    <input type="password" placeholder="Enter Password"/><br><br>
+    <button type="submit">Submit</button>
+   </form>
+</body>
+</html>
