@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        body{
+            background-color:orangered;
+            height: 100vh;
+            text-align: center;
+            color:white;
+        }
+        .welcome-heading::before{
+            content: "🤩🤩🤩";
+            
+        }
+        .welcome-heading:hover{
+            color:black;
+        }
+        .welcome-heading::after{
+            content: "🥳🥳🥳";
+        }
+        h3::first-letter{
+            font-size: 30px;
+            color:yellow;
+            font-weight: bold;
+        }
+        h3::selection{
+            background-color: purple;
+            color: white;
+        }
+        p::first-letter{
+            font-size: 20px;
+            color:purple;
+            font-weight: bold;
+        }
+        p:active{
+            color:blue;
+        }
+        .anchor:active{
+            color:blue;
+        }
+        .anchor:visited{
+            color:green;
+            font-size: 70px;
+
+        }
+        .anchor:link{
+            color:yellow;
+            text-decoration: none;
+            text-transform: lowercase;
+        
+        }
+        .anchor:hover{
+            color:cyan;
+        }
+        h3:hover{
+            color:yellow;
+        }
+
+        </style>
+</head>
+<body>
+    <h1 class="welcome-heading">Welcome to Amazon Big Billon Days Festival</h1>  
+    <h3>Offers on Every items flat 30% discount</h3>
+    <button>Join Now</button>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+        Expedita ad ex aliquam quod culpa.<br>
+        Assumenda, cumque culpa exercitationem quibusdam voluptate libero,<br>
+        suscipit provident deleniti laudantium commodi molestiae quo eum maiores.</p>
+ <h3><a href="https://www.youtube.com/" class="anchor"> Go To YouTube</a></h3>
+ </body>    
+
+
+
+
+
+
+
+       
